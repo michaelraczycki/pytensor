@@ -9,8 +9,8 @@ fi
 
 set -e
 
-git checkout main
-git pull origin main
+git checkout aesara/main
+git pull aesara main
 git checkout -b upstream_$1
 
 echo "Downloading patch..."
